@@ -16,6 +16,7 @@ int n_factorial_2(int n)//计算1！+2！+3！+...+n!
 	}
 	return n;
 }
+/*******************************************************/
 //int x_find(int x,int a[])//二分法，在有序数组a[]中寻找x
 //{
 //	int n_len = sizeof(a) / sizeof(a[0]);
@@ -35,6 +36,7 @@ int n_factorial_2(int n)//计算1！+2！+3！+...+n!
 //			return a[f];
 //	}
 //}
+/************************************************/
 void code_1()
 {
 	char a1[] = "Hello I am ZGL!!!";
@@ -52,5 +54,44 @@ void code_1()
 		printf("\n");
 	}
 }
-
-
+/*************************************************************/
+////连续多次生成随机数
+//#include <stdio.h>
+//#include <time.h>
+//int main()
+//{
+//	srand((unsigned int)time(NULL));//只调用一次
+//	while (1) 
+//	{
+//		int a = rand()%100;//限制在0-100
+//		if (getchar() != '0')
+//		{
+//			printf("%d", a);
+//		}
+//		else
+//		{
+//			return 0;
+//		}
+//	}
+//	return 0;
+//}
+/****************************************************/
+//#include <stdio.h>
+////定义函数，交换两个变量的值
+//void Swap(int* x, int* y)
+//{
+//	int z = 0;
+//	z = *x;
+//	*x = *y;
+//	*y = z;
+//}
+//int main()
+//{
+//	int a = 2;
+//	int b = 0;
+//	printf("%d %d\n", a, b);
+//	Swap(&a, &b);
+//	printf("%d %d\n", a, b);
+//	return 0;
+//}
+/************************************************/

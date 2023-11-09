@@ -1,3 +1,2 @@
-﻿  add.c
-D:\A_Study\C语言\工程\001_2019test\Project1\add.c(43,18): warning C4013: “strlen”未定义；假设外部返回 int
+﻿  test.c
   Project1.vcxproj -> D:\A_Study\C语言\工程\001_2019test\Debug\Project1.exe
