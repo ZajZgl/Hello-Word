@@ -1,2 +1,15 @@
 ﻿  test.c
+D:\A_Study\C语言\工程\001_2019test\Project1\test.c(18,10): warning C4098: “Hanuot_printf”:“void”函数返回值
+D:\A_Study\C语言\工程\001_2019test\Project1\test.c(26,11): warning C4098: “a_to_c”:“void”函数返回值
+D:\A_Study\C语言\工程\001_2019test\Project1\test.c(29,11): warning C4098: “a_to_c”:“void”函数返回值
+D:\A_Study\C语言\工程\001_2019test\Project1\test.c(37,11): warning C4098: “a_to_b”:“void”函数返回值
+D:\A_Study\C语言\工程\001_2019test\Project1\test.c(40,11): warning C4098: “a_to_b”:“void”函数返回值
+D:\A_Study\C语言\工程\001_2019test\Project1\test.c(48,11): warning C4098: “b_to_a”:“void”函数返回值
+D:\A_Study\C语言\工程\001_2019test\Project1\test.c(51,11): warning C4098: “b_to_a”:“void”函数返回值
+D:\A_Study\C语言\工程\001_2019test\Project1\test.c(59,11): warning C4098: “b_to_c”:“void”函数返回值
+D:\A_Study\C语言\工程\001_2019test\Project1\test.c(62,11): warning C4098: “b_to_c”:“void”函数返回值
+D:\A_Study\C语言\工程\001_2019test\Project1\test.c(70,11): warning C4098: “c_to_a”:“void”函数返回值
+D:\A_Study\C语言\工程\001_2019test\Project1\test.c(73,11): warning C4098: “c_to_a”:“void”函数返回值
+D:\A_Study\C语言\工程\001_2019test\Project1\test.c(81,11): warning C4098: “c_to_b”:“void”函数返回值
+D:\A_Study\C语言\工程\001_2019test\Project1\test.c(84,11): warning C4098: “c_to_b”:“void”函数返回值
   Project1.vcxproj -> D:\A_Study\C语言\工程\001_2019test\Debug\Project1.exe
