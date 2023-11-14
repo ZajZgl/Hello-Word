@@ -1,6 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS 1 
 #pragma once
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 #define ROW 9
 #define COL 9
 
@@ -21,5 +23,9 @@ void show_clue(int board_clue[ROWS][COLS], int rows, int cols);
 int clear(int board_clue[ROWS][COLS], char board_show[ROWS][COLS]);
 int judge_sucess(char board_show[ROWS][COLS], int board_clue[ROWS][COLS]);
 
-void clear_board_0(int x, int y, char board_show[ROWS][COLS], int board_clue[ROWS][COLS]);
 void clear_board_1(int x, int y, char board_show[ROWS][COLS], int board_clue[ROWS][COLS]);
+void clear_do(int x, int y, char board_show[ROWS][COLS], int board_clue[ROWS][COLS]);
+void show_01(char board_show[ROWS][COLS], int board_clue[ROWS][COLS]);
+
+void clear_do_0(int x, int y, char board_show[ROWS][COLS], int board_clue[ROWS][COLS]);
+void clear_board_0(int x, int y, char board_show[ROWS][COLS], int board_clue[ROWS][COLS]);
